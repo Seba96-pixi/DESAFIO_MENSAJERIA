@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Roboto Bold', sans-serif;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E8ebe4;
+    padding: 20px; 
+    text-align: center; 
+    width: 100%;
+}
+
+.container img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.bold-textm {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.bold-textmi {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.highlight {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+menu {
+margin: 0;
+padding: 0;
+background-color: White ;
+display: flex;
+align-items: center;
+flex-direction: column;
+width: 20em;
+height: 100%;
+border: solid 1px #bec1bb
+}
+
+menu div {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ background-color: #fff;
+ min-height: 10vh;
+ border:solid  1px #bec1bb;
+ width: 100%;
+}
+
+
+menu .usuario {
+        display: flex;
+        justify-content: center; /* Centrar el texto horizontalmente */
+        align-items: center; /* Centrar el texto verticalmente */
+        background-color: #A491D2; /* Color de fondo */
+        color: white; /* Color del texto */
+        margin: 1px;
+        padding: 20px 50px; /* Espaciado interno */
+        border-radius: 0px; /* Bordes redondeados opcional */
+        text-align: center; /* Centrar el texto dentro del contenedor */
+        font-weight: bold; /* Negrita para el texto */
+    }
+
+
+menu .usuario2 {
+    display: flex;
+    align-items: center;
+    text-align: left; /* Alinea el texto a la izquierda */
+    flex-direction: row;
+    gap: 0;
+    
+}
+
+menu .usuario img {
+    width: 50px; /* Ajusta este valor según el tamaño deseado */
+    height: 50px; /* Ajusta este valor según el tamaño deseado */
+    border-radius: 50%; /* Hace la imagen circular */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+menu .usuario2 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    margin: 0; /* Elimina margen */
+    padding: 0;
+    border: none;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el texto dentro del contenedor */
+    margin: 0; /* Elimina margen */
+    padding: 0; /* Elimina padding */
+    border: none;
+}
+
+
+
+.usuario2 .nombre {
+    font-weight: bold;
+    font-size: 16px; /* Ajusta el tamaño según sea necesario */
+}
+
+.usuario2 .descripcion {
+    font-size: 14px; /* Ajusta el tamaño según sea necesario */
+    color: #555; /* Color de texto opcional */
+    margin: 0; /* Elimina margen */
+    padding: 0; /* Elimina padding */
+}
+
+.menu_usuario {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20em;
+    height: 100%;
+    border: solid 1px #bec1bb;
+    }
